@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack --mode production",
-    "dev": "webpack --mode development --watch"
+    "dev": "webpack-dev-server --mode development",
+    "watch-only": "webpack --mode development --watch"
   },
   "keywords": [],
   "author": "",
@@ -28,6 +29,7 @@
     "style-loader": "^0.23.1",
     "webpack": "^4.29.3",
     "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.1.14",
     "webpack-notifier": "^1.7.0"
   },
   "dependencies": {
